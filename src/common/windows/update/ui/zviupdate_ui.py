@@ -1,0 +1,52 @@
+from PyQt5 import QtCore, QtGui, QtWidgets
+from src.util.zviutil import getResource
+
+
+class Ui_Update(object):
+    def setupUi(self, Update):
+        Update.setObjectName("Update")
+        Update.resize(251, 87)
+        Update.setWindowIcon(QtGui.QIcon(getResource("zvilogo.ico")))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(Update.sizePolicy().hasHeightForWidth())
+        Update.setSizePolicy(sizePolicy)
+        Update.setMinimumSize(QtCore.QSize(251, 87))
+        Update.setMaximumSize(QtCore.QSize(251, 87))
+        self.centralwidget = QtWidgets.QWidget(Update)
+        self.centralwidget.setObjectName("centralwidget")
+        self.available_version = QtWidgets.QLineEdit(self.centralwidget)
+        self.available_version.setGeometry(QtCore.QRect(125, 34, 116, 18))
+        self.available_version.setMaximumSize(QtCore.QSize(120, 16777215))
+        self.available_version.setAlignment(QtCore.Qt.AlignCenter)
+        self.available_version.setReadOnly(True)
+        self.available_version.setObjectName("available_version")
+        self.current_version = QtWidgets.QLineEdit(self.centralwidget)
+        self.current_version.setGeometry(QtCore.QRect(125, 10, 116, 18))
+        self.current_version.setMaximumSize(QtCore.QSize(120, 16777215))
+        self.current_version.setAlignment(QtCore.Qt.AlignCenter)
+        self.current_version.setReadOnly(True)
+        self.current_version.setObjectName("current_version")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(10, 34, 85, 16))
+        self.label_2.setMaximumSize(QtCore.QSize(85, 16777215))
+        self.label_2.setObjectName("label_2")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(10, 10, 79, 16))
+        self.label.setMaximumSize(QtCore.QSize(85, 16777215))
+        self.label.setObjectName("label")
+        self.checkButton = QtWidgets.QPushButton(self.centralwidget)
+        self.checkButton.setGeometry(QtCore.QRect(70, 60, 109, 19))
+        self.checkButton.setMaximumSize(QtCore.QSize(120, 16777215))
+        self.checkButton.setObjectName("checkButton")
+        Update.setCentralWidget(self.centralwidget)
+        self.retranslateUi(Update)
+        QtCore.QMetaObject.connectSlotsByName(Update)
+
+    def retranslateUi(self, Update):
+        _translate = QtCore.QCoreApplication.translate
+        Update.setWindowTitle(_translate("Update", "Version Info:"))
+        self.label_2.setText(_translate("Update", "Available Version:"))
+        self.label.setText(_translate("Update", "Current Version:"))
+        self.checkButton.setText(_translate("Update", "Check for Updates..."))

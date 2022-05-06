@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>zvihelp</namespace>
+    <virtualFolder>doc</virtualFolder>
+    <filterSection>
+        <toc>
+            <section title="General" ref="general.html"></section>
+            <section title="Settings" ref="settings.html">
+                <section title="Changing Application Variables" ref="settings_variables.html"></section>
+                <section title="Themes" ref="settings_themes.html">
+                    <section title="Switching Themes" ref="settings_themes_switch.html"></section>
+                    <section title="Creating Custom Color" ref="settings_themes_color.html"></section>
+                </section>
+            </section>
+            <section title="MetalSizing" ref="ms.html">
+                <section title="Adding module #" ref="ms_moduleaddition.html"></section>
+            </section>
+            <section title="ValveSizing" ref="vs.html">
+                <section title="Stage Matching" ref="vs_stagematching.html"></section>
+                <section title="Gas Analysis" ref="vs_gasanalysis.html"></section>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="Module Addition" ref="ms_moduleaddition.html"/>
+            <keyword name="Variables" ref="settings_variables.html"/>
+            <keyword name="Themes" ref="settings_themes.html"/>
+            <keyword name="Switching Themes" ref="settings_themes_switch.html"/>
+            <keyword name="Gas Analysis" ref="vs_gasanalysis.html"/>
+            <keyword name="Stage Matching" ref="vs_stagematching.html"/>
+        </keywords>
+        <files>
+            <file>index.html</file>
+            <file>general.html</file>
+            <file>settings.html</file>
+            <file>settings_variables.html</file>
+            <file>settings_themes.html</file>
+            <file>settings_themes_switch.html</file>
+            <file>settings_themes_color.html</file>
+            <file>ms.html</file>
+            <file>ms_moduleaddition.html</file>
+            <file>vs.html</file>
+            <file>vs_stagematching.html</file>
+            <file>vs_gasanalysis.html</file>
+            <file>images/gear.png</file>
+            <file>images/theme_list.png</file>
+            <file>images/theme_color_button.png</file>
+            <file>images/theme_color_input.png</file>
+            <file>images/theme_color_style.png</file>
+            <file>images/theme_color_colorset.png</file>
+            <file>images/gas_list.png</file>
+            <file>images/gas_window.png</file>
+            <file>images/gas_add.png</file>
+            <file>images/gas_add_mole.png</file>
+            <file>images/gas_add_set.png</file>
+            <file>images/gas_sets.png</file>
+            <file>images/gas_tab.png</file>
+            <file>images/variables.png</file>
+            <file>images/stagematching.png</file>
+            <file>images/stagematching_deltas.png</file>
+            <file>images/addButton.png</file>
+            <file>images/addModuleNum.png</file>
+        </files>
+    </filterSection>
+</QtHelpProject>

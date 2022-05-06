@@ -1,0 +1,10 @@
+
+userProps.ini
+.vscode/tasks.json
+.idea/
+*.ini
+*.log
+.vscode/
+build/
+*.pyc 
+__pycache__

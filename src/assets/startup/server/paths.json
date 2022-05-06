@@ -1,0 +1,29 @@
+{
+    "EDS": "EDS_v2_5.xlsx",
+    "EIS" : "Engineering Info Sheet R1.xlsx",
+    "VSpec" : "Valve spec sheet template.xlsx",
+    "MSA" : "Metal Sizing Approval_R1.xlsx",
+    "MetalSizing" : "Metal Sizing R4.xlsm",
+    "VSC_Stage" : "VS Comparison Stage.xlsx",
+    "VSC_Stage2" : "VS Comparison Total 2 Stage.xlsx",
+    "VSC_Stage3" : "VS Comparison Total 3 Stage.xlsx",
+    "VSC_Stage4" : "VS Comparison Total 4 Stage.xlsx",
+    "VSC_Stage5" : "VS Comparison Total 5 Stage.xlsx",
+    "VSC_Stage6" : "VS Comparison Total 6 Stage.xlsx",
+    "ModuleProgram" : "Z:\\Engineering\\Workspace\\ZVI Programs\\Module Program.lnk",
+    "Seat Information" : "Seat Information.xlsm",
+	"ZVITemplate" : "Z:\\Engineering\\Workspace\\David\\Applications\\src\\templates",
+    "Template" : "Z:\\Engineering\\Template",
+	"ZVITemplateName" : "Template_VS.xlsm",
+    "ValveSizing" : "Z:\\Engineering\\Template\\Valve Sizing",
+    "Projects" : "Z:\\Engineering\\Workspace\\Projects",
+    "Workspace" : "Z:\\Engineering\\Workspace",
+    "Server": "Z:\\Engineering\\Workspace\\David\\Applications\\bin\\apps\\ZVIApp\\0.0\\ZVI_Files",
+    "Update": {
+        "URL": "https://david52920.github.io/zviinstaller/",
+        "File": "updateQuery.json"
+    }
+}
+
+
+

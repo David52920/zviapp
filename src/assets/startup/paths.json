@@ -1,0 +1,17 @@
+{
+    "VSpec" : "Valve spec sheet template.xlsx",
+    "MSA" : "Metal Sizing Approval_R1.xlsx",
+    "Template" : "Z:\\Engineering\\Template",
+	"ZVITemplateName" : "Template_VS.xlsm",
+    "WD" : "Z:\\Engineering\\Template\\WD",
+    "Projects" : "Z:\\Engineering\\Workspace\\Projects",
+    "Workspace" : "Z:\\Engineering\\Workspace",
+    "Server": "Z:\\Engineering\\Workspace\\David\\Applications\\bin\\apps\\ZVIApp\\0.0\\ZVI_Files",
+    "Update": {
+        "URL": "https://david52920.github.io/zviinstaller/",
+        "File": "updateQuery.json"
+    }
+}
+
+
+
